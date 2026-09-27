@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YouTube - Home</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle">
+
+    <header class="topbar">
+
+        <label for="sidebar-toggle" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="logo-text">YouTube</div>
+        </a>
+
+        <div class="search-area">
+
+            <form class="search-box"
+                  action="https://www.youtube.com/results"
+                  method="get"
+                  target="_blank">
+
+                <input type="search"
+                       name="search_query"
+                       placeholder="Search">
+
+                <button type="submit" class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </form>
+
+            <a href="https://www.youtube.com/" class="mic-btn" target="_blank">
+                <i class="fa-solid fa-microphone"></i>
+            </a>
+
+        </div>
+
+        <div class="header-right">
+
+            <a href="https://youtu.be/fw8W91b37T8?si=L-_iecx-KuHLeMzw"
+               class="header-icon"
+               target="_blank">
+                <i class="fa-solid fa-video"></i>
+            </a>
+
+            <a href="https://www.youtube.com/"
+               class="header-icon"
+               target="_blank">
+                <i class="fa-solid fa-grip"></i>
+            </a>
+
+            <a href="https://www.youtube.com/"
+               class="header-icon"
+               target="_blank">
+                <i class="fa-regular fa-bell"></i>
+            </a>
+
+            <a href="https://www.youtube.com/account"
+               class="profile"
+               target="_blank">
+                M
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <aside class="sidebar">
+
+        <div class="sidebar-section">
+
+            <a href="index.html" class="nav-item active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="explore.html" class="nav-item">
+                <i class="fa-solid fa-compass"></i>
+                <span>Explore</span>
+            </a>
+
+            <a href="subscriptions.html" class="nav-item">
+                <i class="fa-brands fa-youtube"></i>
+                <span>Subscriptions</span>
+            </a>
+
+        </div>
+
+        <div class="sidebar-divider"></div>
+
+        <div class="sidebar-section">
+
+            <div class="sidebar-title">You</div>
+
+            <a href="history.html" class="nav-item">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>History</span>
+            </a>
+
+            <a href="watch-later.html" class="nav-item">
+                <i class="fa-regular fa-clock"></i>
+                <span>Watch later</span>
+            </a>
+
+            <a href="liked-videos.html" class="nav-item">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <span>Liked videos</span>
+            </a>
+
+        </div>
+
+        <div class="sidebar-divider"></div>
+
+        <div class="sidebar-section">
+
+            <div class="sidebar-title">Explore</div>
+
+            <a href="music.html" class="nav-item">
+                <i class="fa-solid fa-music"></i>
+                <span>Music</span>
+            </a>
+
+            <a href="sports.html" class="nav-item">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Sports</span>
+            </a>
+
+            <a href="gaming.html" class="nav-item">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Gaming</span>
+            </a>
+
+            <a href="news.html" class="nav-item">
+                <i class="fa-regular fa-newspaper"></i>
+                <span>News</span>
+            </a>
+
+            <a href="education.html" class="nav-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Education</span>
+            </a>
+
+            <a href="programming.html" class="nav-item">
+                <i class="fa-solid fa-code"></i>
+                <span>Programming</span>
+            </a>
+
+            <a href="design.html" class="nav-item">
+                <i class="fa-solid fa-pen-ruler"></i>
+                <span>Design</span>
+            </a>
+
+            <a href="technology.html" class="nav-item">
+                <i class="fa-solid fa-microchip"></i>
+                <span>Technology</span>
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <main class="content">
+
+        <nav class="categories">
+
+            <a href="index.html" class="category active">All</a>
+            <a href="music.html" class="category">Music</a>
+            <a href="mixes.html" class="category">Mixes</a>
+            <a href="design.html" class="category">Design</a>
+            <a href="technology.html" class="category">Technology</a>
+            <a href="gaming.html" class="category">Gaming</a>
+            <a href="sports.html" class="category">Sports</a>
+            <a href="news.html" class="category">News</a>
+            <a href="education.html" class="category">Education</a>
+            <a href="programming.html" class="category">Programming</a>
+
+        </nav>
+
+
+        <section class="video-area">
+
+            <div class="section-heading">
+                <h1>Recommended videos</h1>
+                <p>Watch your favorite videos</p>
+            </div>
+
+
+            <div class="video-grid">
+
+
+                <!-- Video 1 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/Ijz7MWIDlHc?si=hUnlKru2fu9wLMuH"
+                       target="_blank"
+                       class="video-link">
+
+                        <div class="thumbnail">
+
+                            <img src="image/video1.jpg"
+                                 alt="Video 1">
+
+                            <span class="duration">9:29</span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">G</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                    
+                                Iranian forces warn US !!! | Geo News 10PM Headlines 27 Sept 2026
+                                </h2>
+
+                                <div class="channel-name">
+                                    Geo News
+                                </div>
+
+                                <div class="video-meta">
+                                    125K views • 2 days ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Video 2 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/afwwKtEzkSg?si=qIlR9Ih8TslA0s2I"
+                       target="_blank"
+                       class="video-link">
+
+                        <div class="thumbnail">
+
+                            <img src="image/video2.jpg"
+                                 alt="Video 2">
+
+                            <span class="duration">8:20</span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">T</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                    
+                                Why Property Is So Expensive In Bahria Town & DHA
+                                </h2>
+
+                                <div class="channel-name">
+                                    Haider Tv
+                                </div>
+
+                                <div class="video-meta">
+                                    146K views • 2d ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Video 3 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/kpDs5XezMOM?si=DobVw4KB04ymrQ66"
+                       target="_blank"
+                       class="video-link">
+
+                        <div class="thumbnail">
+
+                            <img src="image/video3.jpg"
+                                 alt="Video 3">
+
+                            <span class="duration">22:59</span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">T</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                    Nafsi Nafsi Ka Alam | Bayan | Life Changing Bayan | Molana Tariq Jameel Latest | 25-10-2022
+                                </h2>
+
+                                <div class="channel-name">
+                                    
+                                AJ Official
+
+                                </div>
+
+                                <div class="video-meta">
+                                    1.9M views • 3y ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Video 4 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/9v2t1zqvEOk?si=hZuf5Ef2Tovv6Veg"
+                       target="_blank"
+                       class="video-link">
+
+                        <div class="thumbnail">
+
+                            <img src="image/video4.jpg"
+                                 alt="Video 4">
+
+                            <span class="duration">1:01:46</span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">G</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                    
+                                I BECAME THE BIGGEST GANGSTAR
+                                </h2>
+
+                                <div class="channel-name">
+                                    Techno Gammers
+                                </div>
+
+                                <div class="video-meta">
+                                    540K views • 5 days ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Video 5 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/hhMEFaeBm1Y?si=5_JDogjlmRL7zOwi"
+                       target="_blank"
+                       class="video-link">
+
+                        <div class="thumbnail">
+
+                            <img src="image/video5.jpg"
+                                 alt="Video 5">
+
+                            <span class="duration">4:28</span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">M</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                   
+                                    KAUN TALHA - Talha Anjum Prod. Umair (Official Music Video)
+                                </h2>
+
+                                <div class="channel-name">
+                                    
+                                    Anjum Lyrics
+                                </div>
+
+                                <div class="video-meta">
+                                    10M views • 2y ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Video 6 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/BsDoLVMnmZs?si=0lBTo0okp9ZswO5W"
+                       target="_blank"
+                       class="video-link">
+
+                        <div class="thumbnail">
+
+                            <img src="image/video6.jpg"
+                                 alt="Video 6">
+
+                            <span class="duration">3:11:11</span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">E</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                    HTML Tutorial For Beginners In Hindi (With Notes) 🔥
+                                </h2>
+
+                                <div class="channel-name">
+                                    CodeWithHarry
+
+                                </div>
+
+                                <div class="video-meta">
+                                    15M views • 5y ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Video 7 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/K4UcQN5TNG4?si=2Cs59ukqkthL_DpQ"
+                       target="_blank"
+                       class="video-link">
+
+                        <div class="thumbnail">
+
+                            <img src="image/video7.jpg"
+                                 alt="Video 7">
+
+                            <span class="duration">9:50</span>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">S</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                    
+                                    My New Car Is Here | Alhamdulillah🔥
+                                </h2>
+
+                                <div class="channel-name">
+                                    Ducky Bhai
+                                </div>
+
+                                <div class="video-meta">
+                                    1.3M views • 1 days ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Video 8 -->
+
+                <div class="video-card">
+
+                    <a href="https://youtu.be/a18py61_F_w?si=2C_wErNKd-mHD9xn"
+                       target="_blank"
+                       class="video-link">
+
+                        <a href="https://youtu.be/a18py61_F_w?si=2C_wErNKd-mHD9xn" class="video-link">
+    <div class="thumbnail">
+        <img src="image/video8.jpg" alt="Video 8">
+        <span class="duration">10:27</span>
+    </div>
+</a>
+
+                        <div class="video-info">
+
+                            <div class="channel-avatar">N</div>
+
+                            <div class="video-details">
+
+                                <h2 class="video-title">
+                                    
+                                    Coke Studio Season 8| Tajdar-e-Haram| Atif Aslam
+                                </h2>
+
+                                <div class="channel-name">
+                                    Coke Studio Pakistan
+                                </div>
+
+                                <div class="video-meta">
+                                    661M views • 11 years ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer class="footer">
+            YouTube © 2026
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
